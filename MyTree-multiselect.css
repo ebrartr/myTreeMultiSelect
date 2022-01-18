@@ -1,0 +1,81 @@
+﻿
+/* MyTreeMultiSelect v1.0.0 | (c) Ebrar Haşlak | MIT Licensed */
+
+.treeSelectHeader{
+    text-align:center;
+    border:solid 1px grey;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin-bottom:0px!important;
+    cursor:pointer!important;
+    width:100%!important;
+    margin-top:3px;
+}
+
+div.tree-multiselect > div.selections.no-border {
+    width: 100%;
+    max-height: 700px;
+    margin-right: 50px;
+}
+
+div.tree-multiselect div.title {
+    background-color: white;
+    color: #659be0;
+}
+
+div.tree-multiselect div.title > span.collapse-section {
+    color:black
+}
+
+.treeClear {
+    color: #d9534f;
+}
+
+.treeClear {
+    font-size:17px;
+}
+
+div.tree-multiselect {
+    width: auto !important;
+
+    position: absolute !important;
+    z-index: 1;
+    background: white;
+}
+
+
+
+.bxSecilen {
+    margin-top: 7px;
+    color: green;
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.treeSelectParent {
+    padding-bottom:5px;
+    padding-left:5px;
+}
+
+.bx-check, .bx-trash-alt {
+    font-size: large;
+    cursor: pointer !important;
+}
+
+.bx-check {
+    color: green;
+}
+
+.bx-trash-alt{
+    color:red;
+}
+
+div.tree-multiselect .auxiliary input.search{
+    width:unset !important;
+}
+
+.secilenItem{
+    margin:3px !important;
+}
